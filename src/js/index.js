@@ -14,4 +14,7 @@ import 'bootstrap';
 
 import '../vendors/mdb/js/mdb';
 
+
+import './components/imageViewer';
+
 console.log('works');
