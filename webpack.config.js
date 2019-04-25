@@ -9,11 +9,11 @@ const OptimizeCSSAssetsPlugin = require('optimize-css-assets-webpack-plugin');
 
 module.exports = (env, argv) => {
     return {
-        entry: [ 
+        entry: [
             path.resolve(__dirname, 'src/js/index.js'),
             path.resolve(__dirname, 'src/scss/main.scss'),
-            path.resolve(__dirname,'src/vendors/mdb/scss/mdb.scss'),
-                ],
+            path.resolve(__dirname, 'src/vendors/mdb/scss/mdb.scss'),
+        ],
         output: {
             path: path.resolve(__dirname, 'dist'),
             filename: 'bundle.js',
@@ -77,14 +77,12 @@ module.exports = (env, argv) => {
                 template: 'src/pdp.html',
                 inject: 'body',
                 filename: 'pdp.html',
- 
-              }),
- 
-              new HtmlWebPackPlugin({
+            }),
+            new HtmlWebPackPlugin({
                 template: 'src/contact-us.html',
                 inject: 'body',
                 filename: 'contact-us.html',
-              }),   
+            }),
             new webpack.ProvidePlugin({
                 $: 'jquery',
                 jQuery: 'jquery',

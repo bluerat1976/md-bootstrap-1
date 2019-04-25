@@ -60,7 +60,53 @@
         </nav>
     </header>
     <!--Main Navigation-->
-   <h1>Contact us</h1>
+    <h1>Contact us</h1>
+    <form action="./action-page.php" target="_blank" metod="POST">
+        <label for="name">Your Name (required)</label>
+        <input type="text" id="name" name="name" size="30" required>
+
+        <label for="email">Your E-mail (required)</label>
+        <input type="text" id="email" name="email" size="30" required>
+
+        <fieldset>
+            <legend> Choose your favorite activities </legend>
+            <div>
+                <input type="checkbox" id="what1" name="what1" value="hello">
+                <label for="what1">Sea shore</label>
+            </div>
+            <div>
+                <input type="checkbox" id="what2" name="what2" value="complain">
+                <label for="what2">Excursion</label>
+            </div>
+            <div>
+                <input type="checkbox" id="what3" name="what3" value="joke">
+                <label for="what3">Mountains</label>
+            </div>
+            <div>
+                <input type="checkbox" id="what3" name="what3" value="joke">
+                <label for="what3">Ecotours</label>
+            </div>
+            <div>
+                <input type="checkbox" id="what3" name="what3" value="joke">
+                <label for="what3">Sport tours</label>
+            </div>
+        </fieldset>
+
+        <label for="select">How often do you travel?</label>
+        <select name="vacations" id="select">
+                <option value="empty"></option>
+                <option value="seashore">Never</option>
+                <option value="excursion">1-2 times per year</option>
+                <option value="Mountains">2-4 times per year</option>
+                <option value="Mountains">5 times per year and more</option>   
+        </select>
+
+        <label for="comments">You message</label>
+        <textarea name="comments" id="comments" cols="45" rows="5"></textarea>
+
+        <input type="reset" value="RESET">
+        <input type="submit" value="SEND">
+    </form>
     <!-- Footer -->
     <footer class="page-footer font-small unique-color pt-4">
 
@@ -85,21 +131,21 @@
                 <!-- Grid column -->
                 <div class="col-md-3 mb-md-0 mb-3">
 
-                    <!-- Links -->
-                    <h5 class="text-uppercase">Links</h5>
+                    <!-- Links 
+                    <h5 class="text-uppercase">Links</h5-->
 
                     <ul class="list-unstyled">
                         <li>
-                            <a href="#!">Link 1</a>
+                            <a href="#!">Home</a>
                         </li>
                         <li>
-                            <a href="#!">Link 2</a>
+                            <a href="#!">My Travels</a>
                         </li>
                         <li>
-                            <a href="#!">Link 3</a>
+                            <a href="#!">Organisation</a>
                         </li>
                         <li>
-                            <a href="#!">Link 4</a>
+                            <a href="#!">Routes</a>
                         </li>
                     </ul>
 
@@ -109,21 +155,21 @@
                 <!-- Grid column -->
                 <div class="col-md-3 mb-md-0 mb-3">
 
-                    <!-- Links -->
-                    <h5 class="text-uppercase">Links</h5>
+                    <!-- Links 
+                    <h5 class="text-uppercase">Links</h5-->
 
                     <ul class="list-unstyled">
                         <li>
-                            <a href="#!">Link 1</a>
+                            <a href="#!">Info</a>
                         </li>
                         <li>
-                            <a href="#!">Link 2</a>
+                            <a href="#!">Blog</a>
                         </li>
                         <li>
-                            <a href="#!">Link 3</a>
+                            <a href="#!">PDP</a>
                         </li>
                         <li>
-                            <a href="#!">Link 4</a>
+                            <a href="#!">Contact us</a>
                         </li>
                     </ul>
 
@@ -137,8 +183,8 @@
         <!-- Footer Links -->
 
         <!-- Copyright -->
-        <div class="footer-copyright text-center py-3">© 2018 Copyright:
-            <a href="https://mdbootstrap.com/education/bootstrap/"> MDBootstrap.com</a>
+        <div class="footer-copyright text-center py-3">© 2019 Copyright:
+            <a href="#"> I-Travels.com</a>
         </div>
         <!-- Copyright -->
 

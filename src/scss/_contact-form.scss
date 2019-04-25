@@ -1,0 +1,94 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+form {
+    width: 400px; 
+    margin: 100px 20px 20px 20px;
+    background-color: #fdfdfa;
+    border: 1px solid black;
+    padding:35px;
+}
+
+input,
+textarea,
+select,
+fieldset {
+    display: block;
+    margin-top: 5px;
+    margin-bottom: 18px;
+}
+
+fieldset {
+    padding: 5px; 
+    border: 0;
+}
+
+//input[type="text"] {
+//   
+//}
+
+label,
+legend {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #000000;   
+}
+
+fieldset legend {
+    font-size: 18px;
+}
+
+input[type="checkbox"]{
+    display: inline-block;
+    margin-top: 5px;
+}
+
+select {
+    width: 50%;
+}
+
+textarea {
+    width: 100%;
+}
+
+input[type="submit"],
+input[type="Reset"] {
+    display: inline-block;
+}
+
+input[type="submit"] {
+    padding: 6px 12px;
+    margin-left: 10px;
+    background-color: #074477;
+    background-image: linear-gradient(#074477, #4076c7);
+    color: white;
+    font-family: Arial, Verdana, Tahoma, sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+input[type="submit"]:hover {
+    background-color: #4076c7;
+    background-image: linear-gradient(#4076c7,#074477);
+    border-color: #074477;
+}
+
+input[type="Reset"] {
+    padding: 6px 11px;
+    background-color: #5c5d5e;
+    background-image: linear-gradient(#5c5d5e, #97979b);
+    color: white;
+    font-family: Arial, Verdana, Tahoma, sans-serif;
+    font-size: 13px;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+input[type="Reset"]:hover {
+    background-color: #97979b;
+    background-image: linear-gradient(#97979b,#5c5d5e);
+    border-color: #97979b;
+}
