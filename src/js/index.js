@@ -17,4 +17,4 @@ import '../vendors/mdb/js/mdb';
 
 import './components/imageViewer';
 
-console.log('works');
+import './components/readMoreReadless';
