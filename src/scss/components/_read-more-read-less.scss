@@ -1,21 +1,24 @@
 .read-more-read-less {
-    &__title {
-        background-color: yellow;
-    }
-    &__content {
-        background-color: red;
-    }
-
-    &__cta {
-        background-color: blue;
-   }
-
-  &__dots {
-    display: inline-block;
-  }
-
-  &__more {
+    .hide {
       display: none;
+    }
+  
+    &__title {
+      background-color: yellow;
+    }
+  
+    &__content {
+      background-color: red;
+    }
+  
+    &__dots,
+    &__more {
+      display: inline-block;
+    }
+  
+    &__cta {
+      background-color: blue;
+    }
   }
-}
 
+  
