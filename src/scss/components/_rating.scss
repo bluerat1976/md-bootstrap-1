@@ -1,10 +1,16 @@
-.product__rating {
-    list-style-type: none;
-    margin: 0;
+
+.product__rating, 
+.rating {
+    padding: 0;
+    list-style-type: none; 
 
     li {
         display: inline-block;
-        color:#dfab00;
     }
 }
 
+.product__rating {
+    li {
+        color: #e6c541;
+    }
+}

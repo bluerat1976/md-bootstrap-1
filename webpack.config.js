@@ -65,6 +65,14 @@ module.exports = (env, argv) => {
                         outputPath: 'assets/',
                     },
                 },
+                {
+                    test: /\.hbs$/,
+                    loader: 'handlebars-loader',
+                    options: {
+                      name: '[name].[ext]',
+                      useRelativePath: true,
+                    },
+                },
             ],
         },
         plugins: [
@@ -83,6 +91,11 @@ module.exports = (env, argv) => {
                 inject: 'body',
                 filename: 'contact-us.html',
             }),
+            new HtmlWebPackPlugin({
+                template: 'src/plp.html',
+                inject: 'body',
+                filename: 'products.html',
+            }), 
             new webpack.ProvidePlugin({
                 $: 'jquery',
                 jQuery: 'jquery',

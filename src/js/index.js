@@ -18,3 +18,5 @@ import '../vendors/mdb/js/mdb';
 import './components/imageViewer';
 
 import './components/readMoreReadless';
+
+import './plp/productsList';
