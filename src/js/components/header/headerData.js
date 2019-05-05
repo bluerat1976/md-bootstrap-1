@@ -37,7 +37,7 @@ export default {
     },
     {
       href: 'products.html',
-      label: 'Electronics',
+      label: 'Products',
       activeLocation: '/products.html',
     },
     {

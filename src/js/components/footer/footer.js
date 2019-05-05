@@ -1,5 +1,5 @@
 
-import footerTemplate from '../../templates/header.hbs';
+import footerTemplate from '../../templates/footer.hbs';
 import footer from './footerData';
 import prepareFooter from './footerHelpers';
 
