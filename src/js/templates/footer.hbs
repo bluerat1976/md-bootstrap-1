@@ -21,11 +21,9 @@
 
             <!-- Links -->
             <!--h5 class="text-uppercase">Links</h5-->
-
-            <ul class="list-unstyled">
-                {{#each footer.navItems}}
-
-                <li {{this.customClass}}>
+            {{#each footer.navItems}}
+            <ul class="list-unstyled {{this.customClass}}">
+                <li>
                     <a href="{{this.href}}">{{this.lebel}}</a>
                 </li>
                 {{/each}}
@@ -49,13 +47,13 @@
         <!-- Grid column -->
 
         <!-- Grid column -->
-        <div class="col-md-3 mb-md-0 mb-3">
+        <!--div class="col-md-3 mb-md-0 mb-3"-->
 
-            <!-- Links -->
-            <!--h5 class="text-uppercase">Links</h5-->
-             <ul class="list-unstyled">  
+        <!-- Links -->
+        <!--h5 class="text-uppercase">Links</h5-->
+        <!--ul class="list-unstyled">  
                
-                <!--li>
+                <li>
                     <a href="#!">Info</a>
                 </li>
                 <li>
@@ -69,10 +67,10 @@
                 </li>
                 <li>
                     <a href="#!">Contact us</a>
-                </li-->
-            </ul>
+                </li>
+            </ul-->
 
-        </div>
+        <!--/div-->
         <!--Grid column-->
 
     </div>
