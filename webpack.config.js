@@ -87,14 +87,14 @@ module.exports = (env, argv) => {
                 filename: 'pdp.html',
             }),
             new HtmlWebPackPlugin({
-                template: 'src/contact-us.html',
-                inject: 'body',
-                filename: 'contact-us.html',
-            }),
-            new HtmlWebPackPlugin({
                 template: 'src/plp.html',
                 inject: 'body',
                 filename: 'products.html',
+            }),
+            new HtmlWebPackPlugin({
+                template: 'src/contact-us.html',
+                inject: 'body',
+                filename: 'contact-us.html',
             }), 
             new webpack.ProvidePlugin({
                 $: 'jquery',
