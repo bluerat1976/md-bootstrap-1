@@ -41,9 +41,9 @@ export default {
       activeLocation: '/products.html',
     },
     {
-      href: 'contactus.html',
+      href: 'contact-us.html',
       label: 'Contact Us',
-      activeLocation: '/contactus.html',
+      activeLocation: '/contact-us.html',
     },
   ],
 };
