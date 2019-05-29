@@ -1,10 +1,9 @@
 <nav class="navbar fixed-top navbar-expand-lg navbar-dark light-blue darken-3 scrolling-navbar">
 
     <a class="navbar-brand" href="#">
-        <img src="/src/images/logo/logo-4.png" height="80" class="d-inline-block align-top" alt="mdb logo">
-            <br>
-        <strong>Inventive Individual
-            Tours</strong>
+        <img src="/src/images/logo/logo-4.png" height="90" class="d-inline-block align-top" alt="mdb logo">
+            
+        <strong class="d-inline-block">Inventive <br> Individual<br>Tours</strong>
     </a>
 
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
@@ -12,7 +11,7 @@
         <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav mr-auto">
+        <ul class="navbar-nav mr-auto font-weight-bold">
             {{#each header.navItems}}
             <li class="nav-item {{this.customClass}}">
                 <a class="nav-link" href="{{this.href}}">{{this.label}}</a>
@@ -32,3 +31,4 @@
         </ul>
     </div>
 </nav>
+<!---->

@@ -43,13 +43,6 @@ const products = [
     imageSource: '/src/images/products/SmartphoneSamsung.jpg',
     review: 2,
   },
-  {
-    name: 'Headset',
-    formattedPrice: '$149.9',
-    price: 149.9,
-    imageSource: '/src/images/products/SmartphoneSamsung.jpg',
-    review: 1,
-  },
 ];
 
 export default products;
