@@ -8,8 +8,8 @@ $fa-font-path: '~font-awesome/fonts';
 // Bootstrap 4
 
 @import '~bootstrap/scss/bootstrap';
-
 @import './components/image-viewer';
 @import './components/rating';
 @import './components/custom-radio';
 @import './components/read-more-read-less';
+@import './components/main-container';

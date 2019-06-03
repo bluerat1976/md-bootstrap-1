@@ -69,8 +69,8 @@ module.exports = (env, argv) => {
                     test: /\.hbs$/,
                     loader: 'handlebars-loader',
                     options: {
-                      name: '[name].[ext]',
-                      useRelativePath: true,
+                        name: '[name].[ext]',
+                        useRelativePath: true,
                     },
                 },
             ],
@@ -82,9 +82,19 @@ module.exports = (env, argv) => {
                 filename: 'index.html',
             }),
             new HtmlWebPackPlugin({
+                template: 'src/travels.html',
+                inject: 'body',
+                filename: 'travels.html',
+            }),
+            new HtmlWebPackPlugin({
                 template: 'src/pdp.html',
                 inject: 'body',
                 filename: 'pdp.html',
+            }),
+            new HtmlWebPackPlugin({
+                template: 'src/pdp-tent.html',
+                inject: 'body',
+                filename: 'pdp-tent.html',
             }),
             new HtmlWebPackPlugin({
                 template: 'src/plp.html',
@@ -95,12 +105,12 @@ module.exports = (env, argv) => {
                 template: 'src/contact-us.html',
                 inject: 'body',
                 filename: 'contact-us.html',
-            }), 
+            }),
             new HtmlWebPackPlugin({
                 template: 'src/error.html',
                 inject: 'body',
                 filename: 'error.html',
-            }), 
+            }),
             new webpack.ProvidePlugin({
                 $: 'jquery',
                 jQuery: 'jquery',

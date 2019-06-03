@@ -6,7 +6,7 @@ export default {
       activeLocation: '/index.html',
     },
     {
-      href: '#',
+      href: 'travels.html',
       label: 'Travels',
       activeLocation: '/travels.html',
     },
@@ -29,11 +29,6 @@ export default {
       href: '#',
       label: 'Blog',
       activeLocation: '/blog.html',
-    },
-    {
-      href: 'pdp.html',
-      label: 'PDP',
-      activeLocation: '/pdp.html',
     },
     {
       href: 'products.html',
