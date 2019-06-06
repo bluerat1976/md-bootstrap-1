@@ -97,6 +97,11 @@ module.exports = (env, argv) => {
                 filename: 'pdp-tent.html',
             }),
             new HtmlWebPackPlugin({
+                template: 'src/blog.html',
+                inject: 'body',
+                filename: 'blog.html',
+            }),
+            new HtmlWebPackPlugin({
                 template: 'src/plp.html',
                 inject: 'body',
                 filename: 'products.html',

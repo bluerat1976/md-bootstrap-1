@@ -26,7 +26,7 @@ export default {
       activeLocation: '/info.html',
     },
     {
-      href: '#',
+      href: 'blog.html',
       label: 'Blog',
       activeLocation: '/blog.html',
     },
