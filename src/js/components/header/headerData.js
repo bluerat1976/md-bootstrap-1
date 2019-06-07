@@ -11,17 +11,17 @@ export default {
       activeLocation: '/travels.html',
     },
     {
-      href: '#',
+      href: 'organisation.html',
       label: 'Organisation',
       activeLocation: '/organisation.html',
     },
     {
-      href: '#',
+      href: 'routes.html',
       label: 'Routes',
       activeLocation: '/routes.html',
     },
     {
-      href: '#',
+      href: 'info.html',
       label: 'Info',
       activeLocation: '/info.html',
     },
