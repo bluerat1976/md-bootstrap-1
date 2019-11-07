@@ -11,16 +11,6 @@ export default {
       activeLocation: '/travels.html',
     },
     {
-      href: 'organisation.html',
-      label: 'Organisation',
-      activeLocation: '/organisation.html',
-    },
-    {
-      href: 'routes.html',
-      label: 'Routes',
-      activeLocation: '/routes.html',
-    },
-    {
       href: 'info.html',
       label: 'Info',
       activeLocation: '/info.html',

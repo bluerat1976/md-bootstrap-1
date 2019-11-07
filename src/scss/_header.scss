@@ -1,9 +1,16 @@
 * {
     margin: 0;
-    padding: o;
+    padding: 0;
     box-sizing: border-box;
 }
- .nav-link {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 18px; 
+
+.navbar-nav {
+
+    .nav-item {
+        .nav-link {
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            font-size: 18px; 
+        }
+    }
 }
+ 
