@@ -99,7 +99,7 @@ module.exports = (env, argv) => {
             new HtmlWebPackPlugin({
                 template: 'src/routes.html',
                 inject: 'body',
-                filename: 'routs.html',
+                filename: 'routes.html',
             }),
             new HtmlWebPackPlugin({
                 template: 'src/info.html',
