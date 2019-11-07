@@ -1,13 +1,11 @@
 <nav class="navbar fixed-top navbar-expand-lg navbar-dark unique-color">
 
     <a class="navbar-brand" href="#">
-<<<<<<< HEAD
         <img src="/src/images/logo/logo - Copy.jpg" class="d-inline-block img-fluid align-top" alt="mdb logo">
-=======
-        <img src="../../images/logo/logo.jpg" class="d-inline-block img-fluid align-top" alt="mdb logo">
+
+        <!--img src="../../images/logo/logo.jpg" class="d-inline-block img-fluid align-top" alt="mdb logo"-->
             
         <strong class="d-inline-block">Inventive <br> Individual<br>Tours</strong>
->>>>>>> 8b11d2d07a4d7cf463302fe1e9b4d743200a8735
     </a>
 
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
@@ -15,10 +13,10 @@
         <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav mr-auto font-weight-bold">
+        <ul class="navbar-nav mr-auto ml-auto font-weight-bolder">
             {{#each header.navItems}}
             <li class="nav-item {{this.customClass}}">
-                <a class="nav-link" href="{{this.href}}">{{this.label}}</a>
+                <a class="nav-link pb-8" href="{{this.href}}">{{this.label}}</a>
             </li>
             {{/each}}
         </ul>
