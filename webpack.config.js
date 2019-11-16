@@ -91,25 +91,20 @@ module.exports = (env, argv) => {
                 inject: 'body',
                 filename: 'pdp.html',
             }),
+             new HtmlWebPackPlugin({
+                template: 'src/pdp-item.html',
+                inject: 'body',
+                filename: 'pdp-item.html',
+            }),
             new HtmlWebPackPlugin({
                 template: 'src/organisation.html',
                 inject: 'body',
                 filename: 'organisation.html',
             }),
             new HtmlWebPackPlugin({
-                template: 'src/routes.html',
-                inject: 'body',
-                filename: 'routes.html',
-            }),
-            new HtmlWebPackPlugin({
                 template: 'src/info.html',
                 inject: 'body',
                 filename: 'info.html',
-            }),
-            new HtmlWebPackPlugin({
-                template: 'src/pdp-tent.html',
-                inject: 'body',
-                filename: 'pdp-tent.html',
             }),
             new HtmlWebPackPlugin({
                 template: 'src/blog.html',

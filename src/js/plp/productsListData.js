@@ -12,6 +12,13 @@ const products = [
     review: 4.3,
   },
   {
+    href: 'pdp-item.html',
+    name: 'Item-5',
+    formattedPrice: '$12',
+    imageSource: '/src/images/products/items-new/new-item-2.jpg',
+    review: 5,
+  },
+  {
     name: 'Item-2',
     formattedPrice: '$33.9',
     price: 33.9,
@@ -36,12 +43,7 @@ const products = [
     imageSource: '/src/images/products/NotebookDell.jpg',
     review: 4.6,
   },
-  {
-    name: 'Item-5',
-    formattedPrice: '$499.9',
-    imageSource: '/src/images/products/SmartphoneApple.jpg',
-    review: 5,
-  },
+
   {
     name: 'Item-6',
     formattedPrice: '$699.9',
