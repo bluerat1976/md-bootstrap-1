@@ -1,15 +1,15 @@
 const products = [
 
   {
-    href: 'pdp.html',
-    name: 'Samsung Galaxy S6',
-    formattedPrice: '$226',
-    price: 226,
-    imageSource: '/src/images/products/galaxy-1.jpg',
+    href: 'pdp-item-2.html',
+    name: 'Item-3',
+    formattedPrice: '$33.9',
+    price: 33.9,
+    imageSource: '/src/images/products/items-new/new-item-8.jpg',
     hasSalesPrice: true,
-    wasPrice: '$276',
-    wasFormattedPrice: 276,
-    review: 4.3,
+    wasPrice: '$54.9',
+    wasFormattedPrice: 54.9,
+    review: 4.5,
   },
   {
     href: 'pdp-item.html',
@@ -17,6 +17,17 @@ const products = [
     formattedPrice: '$12',
     imageSource: '/src/images/products/items-new/new-item-2.jpg',
     review: 5,
+  },
+  {
+    href: 'pdp-item-3.html',
+    name: 'Item-4',
+    formattedPrice: '$3.9',
+    price: 3.9,
+    imageSource: '/src/images/products/items-new/new-item-21.jpg',
+    hasSalesPrice: true,
+    wasPrice: '$3.9',
+    wasFormattedPrice: 5.9,
+    review: 4.6,
   },
   {
     name: 'Item-2',
@@ -28,22 +39,17 @@ const products = [
     wasFormattedPrice: 56.9,
     review: 4.1,
   },
-
   {
-    name: 'Item-3',
-    formattedPrice: '$189.9',
-    price: 189.9,
-    imageSource: '/src/images/products/NotebookAsus.jpg',
-    review: 4.5,
+    href: 'pdp.html',
+    name: 'Samsung Galaxy S6',
+    formattedPrice: '$226',
+    price: 226,
+    imageSource: '/src/images/products/galaxy-1.jpg',
+    hasSalesPrice: true,
+    wasPrice: '$276',
+    wasFormattedPrice: 276,
+    review: 4.3,
   },
-  {
-    name: 'Item-4',
-    formattedPrice: '$1089.9',
-    price: 1089.9,
-    imageSource: '/src/images/products/NotebookDell.jpg',
-    review: 4.6,
-  },
-
   {
     name: 'Item-6',
     formattedPrice: '$699.9',
