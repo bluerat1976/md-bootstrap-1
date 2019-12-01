@@ -15,7 +15,7 @@ const products = [
     href: 'pdp-item.html',
     name: 'Item-5',
     formattedPrice: '$12',
-    imageSource: 'src/images/products/items-new/new-item-2.jpg',
+    imageSource: '/src/images/products/items-new/new-item-2.jpg',
     review: 5,
   },
   {
