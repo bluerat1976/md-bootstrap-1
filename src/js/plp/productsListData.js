@@ -5,7 +5,7 @@ const products = [
     name: 'Item-3',
     formattedPrice: '$33.9',
     price: 33.9,
-    imageSource: 'https://adoring-meitner-0550e2.netlify.com/src/images/products/SmartphoneSamsung.jpg',
+    imageSource: 'https://www.trzcacak.rs/myfile/full/46-466451_blue-cup-png-clipart-mug-with-transparent-background.png',
     hasSalesPrice: true,
     wasPrice: '$54.9',
     wasFormattedPrice: 54.9,
