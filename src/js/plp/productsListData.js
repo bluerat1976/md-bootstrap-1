@@ -5,7 +5,7 @@ const products = [
     name: 'Item-3',
     formattedPrice: '$33.9',
     price: 33.9,
-    imageSource: '/home/Desktop/project/md-bootstrap-1/src/images/products/items-new/new-item-6.jpg',
+    imageSource: 'https://adoring-meitner-0550e2.netlify.com/src/images/products/SmartphoneSamsung.jpg',
     hasSalesPrice: true,
     wasPrice: '$54.9',
     wasFormattedPrice: 54.9,
