@@ -6,7 +6,6 @@ const products = [
     formattedPrice: '$33.9',
     price: 33.9,
     imageSource: 'https://www.trzcacak.rs/myfile/full/46-466451_blue-cup-png-clipart-mug-with-transparent-background.png',
-    imageSource: '../../images/products/items-new/new-item-8.jpg',
     hasSalesPrice: true,
     wasPrice: '$54.9',
     wasFormattedPrice: 54.9,
