@@ -5,7 +5,7 @@ const products = [
     name: 'Item-3',
     formattedPrice: '$33.9',
     price: 33.9,
-    imageSource: '../../images/products/items-new/new-item-8.jpg',
+    imageSource: 'https://drive.google.com/drive/folders/19Lnwm9bvFpZd808HUulVFVVb5-Mcj7Yi',
     hasSalesPrice: true,
     wasPrice: '$54.9',
     wasFormattedPrice: 54.9,
