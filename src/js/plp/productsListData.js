@@ -1,9 +1,9 @@
 const products = [
 
   {
-    href: 'pdp-item-2.html',
-    name: 'Item-3',
-    formattedPrice: '$33.9',
+    href: 'pdp.html',
+    name: 'Item-1',
+    formattedPrice: '$5.9',
     price: 33.9,
     imageSource: 'https://liketo.ru/upload/iblock/e0a/15021142.jpg',
     hasSalesPrice: true,
@@ -14,16 +14,16 @@ const products = [
   {
     href: 'pdp-item.html',
     name: 'Item-5',
-    formattedPrice: '$12',
-    imageSource: './src/images/products/items-new/new-item-2.jpg',
+    formattedPrice: '$12.6',
+    imageSource: 'https://multiurok.ru/img/264385/image_5856bc0025853.jpg',
     review: 5,
   },
   {
-    href: 'pdp-item-3.html',
+    href: 'pdp-item-2.html',
     name: 'Item-4',
     formattedPrice: '$3.9',
     price: 3.9,
-    imageSource: '../../images/products/items-new/new-item-21.jpg',
+    imageSource: 'http://ae01.alicdn.com/kf/HTB1mHvRKXXXXXc1XpXXq6xXFXXXo.jpg_q50.jpg',
     hasSalesPrice: true,
     wasPrice: '$3.9',
     wasFormattedPrice: 5.9,
