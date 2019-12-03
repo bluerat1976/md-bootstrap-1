@@ -5,7 +5,7 @@ const products = [
     name: 'Item-3',
     formattedPrice: '$33.9',
     price: 33.9,
-    imageSource: 'https://drive.google.com/open?id=1nZNhGYjmBfZfenbo8FoWNGuPeTWj-b8r',
+    imageSource: 'https://yandex.ru/images/search?text=%D1%87%D0%B0%D1%88%D0%BA%D0%B0&iorient=square&ncrnd=1575405467917-9840323950585784&pos=0&img_url=https%3A%2F%2Ftvoydom.ru%2Fphotos%2F1001585342%2F1001585342.jpg&rpt=simage',
     hasSalesPrice: true,
     wasPrice: '$54.9',
     wasFormattedPrice: 54.9,
