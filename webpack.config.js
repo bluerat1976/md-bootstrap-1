@@ -106,6 +106,16 @@ module.exports = (env, argv) => ({
       filename: 'pdp-item-3.html',
     }),
     new HtmlWebPackPlugin({
+      template: 'src/pdp-item-4.html',
+      inject: 'body',
+      filename: 'pdp-item-4.html',
+    }),
+     new HtmlWebPackPlugin({
+      template: 'src/pdp-item-5.html',
+      inject: 'body',
+      filename: 'pdp-item-5.html',
+    }), 
+    new HtmlWebPackPlugin({
       template: 'src/organisation.html',
       inject: 'body',
       filename: 'organisation.html',
